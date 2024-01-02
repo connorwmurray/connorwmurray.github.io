@@ -102,15 +102,6 @@ input, select, textarea {
 		background: #242943;
 	} */
 
-	body, canvas {
-	  position: absolute;
-	  width: 100%;
-	  height: 100%;
-	  margin: 0;
-	  padding: 0;
-	  z-index: 5;
-	}
-
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -3387,6 +3378,15 @@ input, select, textarea {
 		}
 
 /* Banner */
+
+	#banner, canvas {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		z-index: 5;
+ 	 }
 
 	#banner {
 		-moz-align-items: center;
