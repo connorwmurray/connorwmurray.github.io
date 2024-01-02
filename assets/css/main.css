@@ -98,9 +98,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
+	/* body {
 		background: #242943;
-	}
+	} */
 
 	body,
 	canvas {
