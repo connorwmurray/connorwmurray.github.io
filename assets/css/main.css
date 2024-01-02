@@ -2755,6 +2755,23 @@ input, select, textarea {
 			width: 40%;
 		}
 
+		.tiles article .extra-image {
+			display: flex;
+			/* justify-content: center;  Center horizontally */
+			align-items: center; /* Center vertically */
+			position: absolute;
+		  }
+		  
+		  .tiles article .extra-image img {
+			max-width: 100%;
+			max-height: 100%;
+			width: auto;
+			height: auto;
+			display: block;
+			margin: 0 auto; /* Center within the container */
+		  }
+
+
 			.tiles article .image {
 				display: none;
 			}
@@ -2862,6 +2879,9 @@ input, select, textarea {
 				max-height: 30em;
 				min-height: 20em;
 			}
+
+			.tiles article .extra-image {
+				position: relative;
 
 		}
 
