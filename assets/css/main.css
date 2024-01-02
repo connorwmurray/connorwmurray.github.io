@@ -2158,6 +2158,10 @@ input, select, textarea {
 		background-color: #37a6cb;
 	}
 
+	<img z="image"
+     src="/img/html/vangogh-lg.jpg"
+     alt="Van Gogh, Self-portrait.">
+
 /* Image */
 
 	.image {
