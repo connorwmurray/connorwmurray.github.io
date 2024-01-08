@@ -189,7 +189,7 @@ input, select, textarea {
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			border-bottom: 0px dotted;
+			border-bottom: 0;
 		}
 
 	h1 {
@@ -3643,7 +3643,8 @@ input, select, textarea {
 
 		#main.alt {
 			background-color: transparent;
-			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+			border-bottom: 
+			solid 1px rgba(212, 212, 255, 0.1);
 		}
 
 /* Contact */
